@@ -22,7 +22,7 @@ function App() {
   
       .then((data) => {
   
-        setCharacters(data.results[0]);
+        setCharacters(data[0]);
   
       });
   
